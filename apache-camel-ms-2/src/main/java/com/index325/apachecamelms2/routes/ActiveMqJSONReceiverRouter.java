@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import java.math.BigDecimal;
 
 @Component
-public class ActiveMqReceiverRouter extends RouteBuilder {
+public class ActiveMqJSONReceiverRouter extends RouteBuilder {
 
     @Autowired
     private MyCurrencyExchangeProcessor myCurrencyExchangeProcessor;
